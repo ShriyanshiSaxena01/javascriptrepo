@@ -79,3 +79,48 @@
 
 // object - basically irs a variable in a code
 
+
+
+let ar =[1,2,3,4,5,6]
+// let neww = ar.map((t)=>{return t*t})
+// console.log(neww);                           //map function
+
+
+
+// let nar = ar.filter((w)=>{return w%2==0})
+// console.log(nar);                                //filter function 
+
+
+
+// let student =
+
+// [
+//     {
+//         id:1,
+//         name:"ans",
+//         age:24,
+//         city:'bhopal'
+//     },
+//     {
+//         id:2,
+//         name:"anllll",
+//         age:20,
+//         city:'indor'
+//     },
+//     {
+//         id:3,
+//         name:"ansmmmk",
+//         age:28,
+//         city:'rajasthan'
+//     },
+// ]
+
+
+// let st = student.map((e)=>{return e.id})
+// console.log(st);
+
+// let st_filter = student.filter((e)=>{return e.age>20})
+// console.log(st_filter)
+
+
+
