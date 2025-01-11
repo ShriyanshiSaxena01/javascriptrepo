@@ -81,7 +81,7 @@
 
 
 
-let ar =[1,2,3,4,5,6]
+// let ar =[1,2,3,4,5,6]
 // let neww = ar.map((t)=>{return t*t})
 // console.log(neww);                           //map function
 
@@ -124,3 +124,41 @@ let ar =[1,2,3,4,5,6]
 
 
 
+
+
+let student =
+
+[
+    {
+        id:1,
+        name:"ans",
+        age:24,
+        city:'bhopal'
+    },
+    {
+        id:2,
+        name:"anllll",
+        age:20,
+        city:'indor'
+    },
+    {
+        id:3,
+        name:"ansmmmk",
+        age:28,
+        city:'rajasthan'
+    },
+]
+
+
+let finaldata = student.map((e)=>`
+
+   <tr>
+   <td> ${e.id} </td>
+    <td> ${e.name} </td>
+     <td> ${e.age} </td>
+      <td> ${e.city} </td>
+
+
+`).join("")
+
+document.querySelector('#displaydata').innerHTML= finaldata
