@@ -126,39 +126,83 @@
 
 
 
-let student =
+// let student =
 
-[
-    {
-        id:1,
-        name:"ans",
-        age:24,
-        city:'bhopal'
-    },
-    {
-        id:2,
-        name:"anllll",
-        age:20,
-        city:'indor'
-    },
-    {
-        id:3,
-        name:"ansmmmk",
-        age:28,
-        city:'rajasthan'
-    },
-]
-
-
-let finaldata = student.map((e)=>`
-
-   <tr>
-   <td> ${e.id} </td>
-    <td> ${e.name} </td>
-     <td> ${e.age} </td>
-      <td> ${e.city} </td>
+// [
+//     {
+//         id:1,
+//         name:"ans",
+//         age:24,
+//         city:'bhopal'
+//     },
+//     {
+//         id:2,
+//         name:"anllll",
+//         age:20,
+//         city:'indor'
+//     },
+//     {
+//         id:3,
+//         name:"ansmmmk",
+//         age:28,
+//         city:'rajasthan'
+//     },
+// ]
 
 
-`).join("")
+// let finaldata = student.map((e)=>`
 
-document.querySelector('#displaydata').innerHTML= finaldata
+//    <tr>
+//    <td> ${e.id} </td>
+//     <td> ${e.name} </td>
+//      <td> ${e.age} </td>
+//       <td> ${e.city} </td>
+
+
+// `).join("")
+
+// document.querySelector('#displaydata').innerHTML= finaldata
+
+
+// 
+
+
+
+// ************** toggle button **************
+
+
+// function collor(){
+//     let cont = document.getElementById('contaner')
+//     console.log(cont);
+
+//     cont.classList.toggle('colorr')
+// }
+
+
+
+// ************** \ **************
+
+//queryselector
+//queryselectoraall
+
+
+// function collor(){
+//     let cont = document.getElementsByClassName('contaner')
+//     console.log(cont);
+
+//     cont[0].classList.toggle('collor')
+// }
+
+// let b = document.querySelector('.contaner')
+// b.computedStyleMap.color="blue"
+
+
+// let c = document.querySelectorAll('.contaner')
+// console.log(c);
+// c[1].style.color="red"
+
+
+// let btn = document.querySelector('#btn')
+// btn.addEventListener('click' , function(){
+//     alert("add event fire")
+// })
