@@ -1,4 +1,4 @@
-alert("this is external js page")
+// alert("this is external js page")
 // brander each-1995
 // mocha----livescript----javascript
 // scripted language--->lightwated language
@@ -926,3 +926,26 @@ topic change
 
 
 // }
+
+
+
+
+let a=parseInt(prompt("enter no.")) 
+
+if(a%2==0)
+{
+    
+    if(a%3==0)
+    {
+
+        document.write("write number")
+    }
+    else
+    {
+        document.write("not divisible by 3")
+    }
+}
+else
+{
+    document.write("not divisible by 2")
+}
