@@ -24,3 +24,9 @@ console.log(a1.trim());
 
 document.write("<br>"+a3.slice(8,14)); //give specific  indexsing character 
 
+// tamplates lateral 
+// (`.....`)
+// support multiline
+// html tag support 
+// direct acess variables
+
