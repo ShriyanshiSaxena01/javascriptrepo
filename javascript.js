@@ -3,6 +3,7 @@
 // part 2 = datatype
 // part 3 = operators{if , else , switchcase}
 // part 4 = Loops
+// part 5 = functions []
 
 
 
@@ -123,9 +124,7 @@
 
 // Example:
 
-// js
-// Copy
-// Edit
+
 // let age = 20;
 // let status = age >= 18 ? "Adult" : "Minor"; // "Adult"
 // 7. Type Operators
@@ -133,9 +132,7 @@
 
 // instanceof (Checks if an object is an instance of a specific class)
 
-// js
-// Copy
-// Edit
+
 // let arr = [];
 // console.log(arr instanceof Array); // true
 // 8. Nullish Coalescing Operator (??)
@@ -242,9 +239,6 @@
 
 // 🔹 Example:
 
-// js
-// Copy
-// Edit
 // let person = { name: "Shriyanshi", age: 22, city: "Delhi" };
 
 // for (let key in person) {
@@ -252,9 +246,7 @@
 // }
 // 🔹 Output:
 
-// makefile
-// Copy
-// Edit
+
 // name: Shriyanshi
 // age: 22
 // city: Delhi
@@ -263,9 +255,7 @@
 
 // 🔹 Example:
 
-// js
-// Copy
-// Edit
+
 // let numbers = [10, 20, 30, 40];
 
 // for (let num of numbers) {
@@ -273,13 +263,7 @@
 // }
 // 🔹 Output:
 
-// Copy
-// Edit
-// 10
-// 20
-// 30
-// 40
-// 🚀 Quick Summary
+
 // Loop Type	When to Use
 // for	When the number of iterations is known
 // while	When the number of iterations is unknown (condition-based)
@@ -287,6 +271,114 @@
 // for...in	To loop over object properties
 // for...of	To loop over arrays or strings
 
+// ________5________________________________________________________________________________________________________________________________________________________________________________
+
+// // 🔷 1. Based on Declaration
+// How a function is written or defined.
+
+// Function Type	Description
+// Function Declaration	Regular function using function keyword. Hoisted.
+// function greet() {}
+// Function Expression	Function assigned to a variable. Not hoisted.
+// const greet = function() {}
+// Arrow Function	Short syntax using =>. Does not have this.
+// const greet = () => {}
+// Anonymous Function	Function without a name. Usually used in callbacks.
+// setTimeout(function() {}, 1000)
+// Named Function Expression	Function with a name, assigned to a variable.
+// const greet = function sayHi() {}
+// IIFE (Immediately Invoked Function Expression)	Runs immediately after being defined.
+// (function(){ ... })();
+// 🔁 2. Based on Usage & Behavior
+// What the function is used for or how it behaves.
+
+// Function Type	Description
+// Callback Function	Passed as an argument to another function.
+// Constructor Function	Used with new keyword to create objects.
+// function Person() {}
+// Generator Function	Used to pause/resume function execution.
+// function* gen() {}
+// Async Function	Uses async/await for asynchronous code.
+// Recursive Function	Function that calls itself.
+// Higher-Order Function	Takes another function as an argument or returns one.
+// 🧠 3. Special Concepts Related to Functions
+// Concept	Description
+// First-Class Functions	JS treats functions as values (can assign, pass, return).
+// Closures	Function + the scope it was defined in.
+// Methods	Functions inside objects.
+// Class Methods	Functions inside class definitions.
+// Static Methods	Class-level methods, not on instances.
+// Getters & Setters	Used to access/change object properties.
+// Event Handlers	Functions used in response to events (onclick, etc).
+// Bound Functions	bind() fixes this value of a function.
+// 🧵 4. Built-in Functions (Group by Purpose)
+// 📌 String Functions – work on text
+// Example: "hello".toUpperCase()
+
+// Function	Purpose
+// charAt()	Get character at a position
+// includes()	Check if substring exists
+// indexOf()	Get index of a character
+// slice(), substring()	Get part of a string
+// toUpperCase(), toLowerCase()	Change case
+// trim()	Remove spaces
+// replace()	Replace text
+// split()	Split string into array
+// 📌 Array Functions – work on arrays
+// Function	Purpose
+// push() / pop()	Add/remove from end
+// shift() / unshift()	Add/remove from start
+// splice() / slice()	Modify or get part of array
+// forEach()	Loop through items
+// map(), filter(), reduce()	Transform/filter/reduce values
+// find(), findIndex()	Search
+// sort(), reverse()	Order items
+// flat()	Flatten nested arrays
+// 📌 Math, Number, Date Functions – built-in utilities
+// Group	Functions
+// Math	Math.floor(), ceil(), round(), random(), max(), min()
+// Number	parseInt(), parseFloat(), toFixed()
+// Date	new Date(), getFullYear(), getMonth(), etc.
+// 📌 Utility & DOM Functions
+// Type	Examples
+// Utility	setTimeout(), clearInterval(), typeof, isNaN()
+// DOM	document.getElementById(), querySelector(), addEventListener()
+// ✅ In Summary:
+// Category	Example	Key Focus
+// Declaration	function hello() {}	How the function is written
+// Usage	setTimeout(cb, 1000)	Why it's used
+// Special Concepts	closure, bind()	Advanced JS behavior
+// Built-in	map(), slice()	Useful methods to manipulate data
+
+
+
+// example
+
+
+function oneplus (x,y){
+        console.log("hy how r u ");
+        return 1+(x+y)/2;
+}
+
+const sum=(p,q) =>{
+        return p+q;
+}
+
+const hello=()=>{
+        console.log("i m fine");
+        return "hi";
+}
+
+
+let a=1;
+let b=2;
+let c=3;
+let v=hello();
+
+console.log("the pus average ", oneplus(a,b));
+console.log(sum(9,10));
+console.log(hello());
+console.log(v);
 
 
 
@@ -567,9 +659,3 @@
            // console.log("Reversed String:", reversed);           
 
 
-
-
-          function collor(){
-
-                alert("I am an alert box!");
-          }
