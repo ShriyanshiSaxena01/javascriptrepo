@@ -355,30 +355,30 @@
 // example
 
 
-function oneplus (x,y){
-        console.log("hy how r u ");
-        return 1+(x+y)/2;
-}
+// function oneplus (x,y){
+//         console.log("hy how r u ");
+//         return 1+(x+y)/2;
+// }
 
-const sum=(p,q) =>{
-        return p+q;
-}
+// const sum=(p,q) =>{
+//         return p+q;
+// }
 
-const hello=()=>{
-        console.log("i m fine");
-        return "hi";
-}
+// const hello=()=>{
+//         console.log("i m fine");
+//         return "hi";
+// }
 
 
-let a=1;
-let b=2;
-let c=3;
-let v=hello();
+// let a=1;
+// let b=2;
+// let c=3;
+// let v=hello();
 
-console.log("the pus average ", oneplus(a,b));
-console.log(sum(9,10));
-console.log(hello());
-console.log(v);
+// console.log("the pus average ", oneplus(a,b));
+// console.log(sum(9,10));
+// console.log(hello());
+// console.log(v);
 
 
 
@@ -659,3 +659,17 @@ console.log(v);
            // console.log("Reversed String:", reversed);           
 
 
+//  Q19 - create function?
+
+
+// function callme(){
+
+//         console.log("hello shriyanshi");
+
+// }
+
+// callme();
+// callme();
+// callme();
+
+    
