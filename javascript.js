@@ -673,3 +673,22 @@
 // callme();
 
     
+
+//  set of instructions -> sub programs -> reuse -> call
+function demo(a){
+        let c = a+a
+        return c
+}
+let v = demo(90)
+console.log(v);
+
+or 
+
+console.log(demo(90))
+
+// arrow function
+
+let funn = ()=>{return }
+funn()
+
+ 
